@@ -42,7 +42,8 @@ input[type="text"] {
   font-size: 25px;
   font-weight: 700;
   text-align: right;
-  border: none;
+  border: 1px white solid;
+  letter-spacing: 2px;
 }
 
 .keypad {
@@ -61,6 +62,6 @@ input[type="text"] {
 
 .highlight {
   background-color: #08d9d6;
-  color: #eeeeee;
-  font-weight: 500;
+  color: #323232;
+  font-weight: 700;
 }

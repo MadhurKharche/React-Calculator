@@ -1,4 +1,3 @@
-import { calculateNewValue } from "@testing-library/user-event/dist/utils";
 import React, { useState } from "react";
 import "./style.css";
 
@@ -18,7 +17,11 @@ function App() {
   };
 
   const calculate = (_e) => {
-    setResult(eval(result));
+    try {
+      setResult(eval(result).toString());
+    } catch (error) {
+      setResult("Syntax Error");
+    }
   };
 
   return (
