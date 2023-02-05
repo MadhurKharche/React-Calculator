@@ -7,11 +7,9 @@
 
 body {
   background-color: darkgray;
-  display: flex;
-  place-items: center;
 }
 
-.container {
+.dabba {
   top: 50%;
   left: 50%;
   position: absolute;
@@ -24,7 +22,7 @@ body {
   border-radius: 5px;
 }
 
-button {
+.bn {
   border: none;
   margin: 5px;
   border-radius: 5px;
@@ -33,9 +31,10 @@ button {
   color: white;
 }
 
-input[type="text"] {
+.textinp {
+  position: relative;
   height: 75px;
-  width: 249px;
+  width: 235px;
   margin: 10px auto;
   background: black;
   color: white;
